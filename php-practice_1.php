@@ -6,15 +6,13 @@ echo '私の名前は「' . $name . '」です。';
 
 
 // Q2 四則演算
-//①
-$x = 5;
-$y = 4;
-var_dump($x * $y); 
+$num = 5 * 4;
 
-//②
-$x = 5;
-$y = 4;
-var_dump(($x * $y) / 2); 
+echo $num;
+echo "\n";
+
+echo $num / 2;
+
 
 // Q3 日付操作
 echo '現在時刻は' . date('Y年m月d日 H時i分s秒') . 'です。';
